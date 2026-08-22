@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+    <background android:drawable="@drawable/mapacheicono_background"/>
+    <foreground android:drawable="@mipmap/mapacheicono_foreground"/>
+    <monochrome android:drawable="@mipmap/mapacheicono_foreground"/>
+</adaptive-icon>

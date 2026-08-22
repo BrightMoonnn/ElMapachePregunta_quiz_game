@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E9BAEF"
+    tools:context="UI.MenuActivity">
+
+    <ImageView
+        android:id="@+id/imageViewMapache2"
+        android:layout_width="138dp"
+        android:layout_height="316dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/mapache" />
+
+    <TextView
+        android:id="@+id/textViewlogo2"
+        android:layout_width="280dp"
+        android:layout_height="184dp"
+        android:autoText="false"
+        android:editable="false"
+        android:fontFamily="@font/comic_neue_bold"
+        android:text="EL MAPACHE PREGUNTA"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:textColor="#528C15"
+        android:textSize="48dp"
+        android:textStyle="bold"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.696"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.299" />
+
+    <Button
+        android:id="@+id/botonPerfil"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#03A9F4"
+        android:fontFamily="@font/comic_neue_bold"
+        android:text="PERFIL JUGADOR"
+        android:textColor="#020202"
+        android:textSize="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.141"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.605" />
+
+    <Button
+        android:id="@+id/botonJugar"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#03A9F4"
+        android:fontFamily="@font/comic_neue_bold"
+        android:text="JUGAR"
+        android:textColor="#020202"
+        android:textSize="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.141"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.228"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <Button
+        android:id="@+id/botonTienda"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#03A9F4"
+        android:fontFamily="@font/comic_neue_bold"
+        android:text="TIENDA"
+        android:textColor="#020202"
+        android:textSize="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.141"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.393" />
+
+    <Button
+        android:id="@+id/botonSalir"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#03A9F4"
+        android:fontFamily="@font/comic_neue_bold"
+        android:text="SALIR"
+        android:textColor="#020202"
+        android:textSize="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.499"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/botonTienda"
+        app:layout_constraintVertical_bias="0.906" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

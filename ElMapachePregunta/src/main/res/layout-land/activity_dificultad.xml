@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E9BAEF"
+    tools:context="UI.DificultadActivity">
+
+    <Button
+        android:id="@+id/botonMenu"
+        android:layout_width="123dp"
+        android:layout_height="61dp"
+        android:backgroundTint="#03A9F4"
+        android:fontFamily="@font/comic_neue_bold"
+        android:text="VOLVER AL MENU"
+        android:textColor="#020202"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.973"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.988"  />
+
+    <TextView
+        android:id="@+id/textEligeDificultad"
+        android:layout_width="370dp"
+        android:layout_height="140dp"
+        android:fontFamily="@font/comic_neue_bold"
+        android:text="Elige dificultad"
+        android:textAlignment="center"
+        android:textColor="#020202"
+        android:textSize="48dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.044"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.007" />
+
+    <ImageView
+        android:id="@+id/ImgAvatar"
+        android:layout_width="142dp"
+        android:layout_height="168dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.733"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.732" />
+
+    <TextView
+        android:id="@+id/textnombre"
+        android:layout_width="227dp"
+        android:layout_height="60dp"
+        android:autoText="false"
+        android:fontFamily="@font/comic_neue_bold"
+        android:textColor="#020202"
+        android:textIsSelectable="false"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.843"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.142" />
+
+    <TextView
+        android:id="@+id/textmonedas"
+        android:layout_width="224dp"
+        android:layout_height="56dp"
+        android:fontFamily="@font/comic_neue_bold"
+        android:textColor="#020202"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.838"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.343" />
+
+    <RadioGroup
+        android:layout_width="257dp"
+        android:layout_height="133dp"
+        android:backgroundTint="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.192"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.669">
+
+        <RadioButton
+            android:id="@+id/radioButtonFacil"
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:backgroundTint="#000000"
+            android:button="@android:drawable/btn_star"
+            android:buttonTintMode="add"
+            android:fontFamily="@font/comic_neue_bold"
+            android:text="Modo Fácil"
+            android:textColor="#020202"
+            android:textSize="30dp" />
+
+        <RadioButton
+            android:id="@+id/radioButtonDificil"
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            android:backgroundTint="#000000"
+            android:button="@android:drawable/btn_star"
+            android:buttonTintMode="add"
+            android:fontFamily="@font/comic_neue_bold"
+            android:text="Modo Difícil"
+            android:textAlignment="textStart"
+            android:textColor="#020202"
+            android:textSize="30dp" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/buttonEmpezar"
+        android:layout_width="136dp"
+        android:layout_height="74dp"
+        android:backgroundTint="#03A9F4"
+        android:fontFamily="@font/comic_neue_bold"
+        android:text="EMPEZAR PARTIDA"
+        android:textColor="#020202"
+        android:textColorHighlight="#020202"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.24"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

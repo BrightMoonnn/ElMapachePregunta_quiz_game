@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E9BAEF"
+    tools:context="UI.TiendaActivity">
+
+
+    <Button
+        android:id="@+id/botonMenu"
+        android:layout_width="123dp"
+        android:layout_height="61dp"
+        android:backgroundTint="#03A9F4"
+        android:fontFamily="@font/comic_neue_bold"
+        android:text="VOLVER AL MENU"
+        android:textColor="#020202"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.102"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.96" />
+
+
+    <TextView
+        android:id="@+id/textNombreMonedas"
+        android:layout_width="217dp"
+        android:layout_height="56dp"
+        android:fontFamily="@font/comic_neue_bold"
+        android:textColor="#020202"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.05" />
+
+    <Button
+        android:id="@+id/botonComprar"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#03A9F4"
+        android:fontFamily="@font/comic_neue_bold"
+        android:text="COMPRAR"
+        android:textColor="#020202"
+        android:textSize="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.879"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <RadioGroup
+        android:layout_width="264dp"
+        android:layout_height="511dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.408">
+
+        <RadioButton
+            android:id="@+id/radioButtonGato"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:fontFamily="@font/comic_neue_bold"
+            android:text="COMPRAR GATO GRATIS"
+            android:textColor="#020202"
+            android:button="@android:drawable/btn_star"
+            android:buttonTintMode="add"/>
+
+        <RadioButton
+            android:id="@+id/radioButtonPerro"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:fontFamily="@font/comic_neue_bold"
+            android:text="COMPRAR PERRO : 25 MONEDAS "
+            android:textColor="#020202"
+            android:button="@android:drawable/btn_star"
+            android:buttonTintMode="add"/>
+
+        <RadioButton
+            android:id="@+id/radioButtonPanda"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:fontFamily="@font/comic_neue_bold"
+            android:text="COMPRAR PANDA : 50 MONEDAS"
+            android:textColor="#020202"
+            android:button="@android:drawable/btn_star"
+            android:buttonTintMode="add"/>
+
+        <RadioButton
+            android:id="@+id/radioButtonHamster"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:fontFamily="@font/comic_neue_bold"
+            android:text="COMPRAR HAMSTER : 75 MONEDAS"
+            android:textColor="#020202"
+            android:button="@android:drawable/btn_star"
+            android:buttonTintMode="add"/>
+
+
+        <RadioButton
+            android:id="@+id/radioButtonMapache"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:fontFamily="@font/comic_neue_bold"
+            android:text="COMPRAR MAPACHE : 100 MONEDAS"
+            android:textColor="#020202"
+            android:button="@android:drawable/btn_star"
+            android:buttonTintMode="add"/>
+
+
+        <RadioButton
+            android:id="@+id/radioButtonMapacheDorado"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:fontFamily="@font/comic_neue_bold"
+            android:text="COMPRAR MAPACHE DORADO : 125 MONEDAS"
+            android:textColor="#020202"
+            android:button="@android:drawable/btn_star"
+            android:buttonTintMode="add"/>
+
+
+    </RadioGroup>
+
+    <ImageView
+        android:id="@+id/imageViewPerro"
+        android:layout_width="102dp"
+        android:layout_height="67dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.106"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.292"
+        app:srcCompat="@drawable/perro" />
+
+    <ImageView
+        android:id="@+id/imageViewGato"
+        android:layout_width="104dp"
+        android:layout_height="64dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.107"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.194"
+        app:srcCompat="@drawable/gato" />
+
+    <ImageView
+        android:id="@+id/imageViewHamster"
+        android:layout_width="74dp"
+        android:layout_height="73dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.139"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/hamster" />
+
+    <ImageView
+        android:id="@+id/imageViewPanda"
+        android:layout_width="105dp"
+        android:layout_height="68dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.104"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.394"
+        app:srcCompat="@drawable/panda" />
+
+    <ImageView
+        android:id="@+id/imageViewMapache"
+        android:layout_width="76dp"
+        android:layout_height="109dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.14"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.61"
+        app:srcCompat="@drawable/mapachevatar" />
+
+    <ImageView
+        android:id="@+id/imageViewMapacheDorado"
+        android:layout_width="74dp"
+        android:layout_height="76dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.145"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.719"
+        app:srcCompat="@drawable/mapachedorado" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
