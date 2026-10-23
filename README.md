@@ -11,7 +11,7 @@ El juego incluye las siguientes características:
 *   **Base de datos SQLite:** En ella se encuentran las preguntas y resouestas y se guardan y actuakizan los datos de cada jugador.
 *   **Sistema de recompensas por respuesta correcta:** E jugador gana monedas con cada pregunta respondida correctamente.
 *   **Tienda de recompensas :** El usuario puede gastar las monedas conseguidas en esta tienda para adquirir diferentes avatares.
-*   
+  
 
 ## Tecnologías Utilizadas
 
